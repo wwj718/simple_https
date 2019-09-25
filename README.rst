@@ -23,6 +23,19 @@ simple https server
 * Documentation: https://simple-https.readthedocs.io.
 
 
+Install
+-------
+
+pip install simple_https
+
+Usage
+-----
+
+simple-https
+
+simple-https -c /tmp/server.pem
+
+
 Features
 --------
 
