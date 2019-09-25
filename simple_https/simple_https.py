@@ -23,6 +23,7 @@ def main():
         # print("certfile: ", certfile)
         # from IPython import embed;embed()
 
+    print(f"Serving HTTPS on {args.address} port {args.port} (https://{args.address}:{args.port}/) ...")
     server_address = (args.address, args.port)
     httpd = http.server.HTTPServer(server_address,
                                    http.server.SimpleHTTPRequestHandler)
