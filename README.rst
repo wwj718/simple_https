@@ -16,7 +16,9 @@ simple_https
 
 
 
-simple https server
+simple https server. 
+
+Just like 'python3 -m http.server', but https.
 
 
 * Free software: GNU General Public License v3
