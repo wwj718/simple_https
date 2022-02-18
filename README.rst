@@ -33,10 +33,14 @@ pip install simple_https
 Usage
 -----
 
-simple-https
+work with mkcert: https://github.com/FiloSottile/mkcert
 
-simple-https -c /tmp/server.pem
 
+```
+mkcert -install
+mkcert example.com "*.example.com" example.test localhost 127.0.0.1 ::1
+simple-https -k ~/example.com+5-key.pem -c ~/example.com+5.pem
+```
 
 Features
 --------
