@@ -36,11 +36,14 @@ Usage
 work with mkcert: https://github.com/FiloSottile/mkcert
 
 
-```
+
 mkcert -install
+
 mkcert example.com "*.example.com" example.test localhost 127.0.0.1 ::1
+
 simple-https -k ~/example.com+5-key.pem -c ~/example.com+5.pem
-```
+
+
 
 Features
 --------
